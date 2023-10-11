@@ -9,7 +9,7 @@ import numpy as np
 
 
 
-df = pd.read_csv("vgsales.csv")
+df = pd.read_csv("../data/vgsales.csv")
 df = df.dropna(subset=['Year'])
 
 
@@ -62,7 +62,3 @@ print("\nKNN Metrics:")
 print("MAE:", mean_absolute_error(y_test, knn_predictions))
 print("MSE:", mean_squared_error(y_test, knn_predictions))
 print("R-squared:", r2_score(y_test, knn_predictions))
-
-print("--------------------data----------------------")
-
-df.describe

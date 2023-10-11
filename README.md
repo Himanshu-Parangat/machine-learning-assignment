@@ -19,7 +19,7 @@ project-structure
 ```
 
 ## Instructions for Running the Project
-note: If you are a windows user, runthis on powershell
+note: If you are a windows user, run this on powershell
 you can open it by hiting win+r & typeing "powershell" enter
 
 
@@ -52,4 +52,4 @@ python3 ./script/run.py
 ```
 jupyter notebook
 ```
-open the ./script/run.ipynb file in gui
+> * open the ./script/run.ipynb file from your browser gui interface at url `http://localhost:8888/notebooks/run.ipynb`

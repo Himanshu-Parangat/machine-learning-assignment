@@ -13,6 +13,10 @@ project-structure
 │   ├── run.ipynb
 │   └── run.py
 └── src
+    ├── data_describe.png
+    ├── main_code.png
+    ├── other_matrics.png
+    └── output.png
 
 4 directories, 6 files
 
@@ -53,3 +57,11 @@ python3 ./script/run.py
 jupyter notebook
 ```
 > * open the ./script/run.ipynb file from your browser gui interface at url `http://localhost:8888/notebooks/run.ipynb`
+
+
+#### Expected output
+
+![Data Description](src/data_describe.png)
+![Main Code](src/main_code.png)
+![Output](src/output.png)
+![Other Metrics](src/other_metrics.png)

@@ -18,7 +18,7 @@ project-structure
     ├── other_matrics.png
     └── output.png
 
-4 directories, 6 files
+4 directories, 10 files
 
 ```
 

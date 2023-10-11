@@ -61,7 +61,11 @@ jupyter notebook
 
 #### Expected output
 
+data describe
 ![Data Description](src/data_describe.png)
+main 
 ![Main Code](src/main_code.png)
+output
 ![Output](src/output.png)
-![Other Metrics](src/other_metrics.png)
+additional
+![Other Metrics](src/other_matrics.png)

@@ -5,28 +5,7 @@ project-structure
 ```
 .
 ├── data
-│   ├── physionet.org
-│   │   ├── files
-│   │   │   └── shhpsgdb
-│   │   │       └── 1.0.0
-│   │   │           ├── 0000.arou
-│   │   │           ├── 0000.comp
-│   │   │           ├── 0000.dat
-│   │   │           ├── 0000.edf
-│   │   │           ├── 0000.hea
-│   │   │           ├── 0000.hypn
-│   │   │           ├── 0000.oart
-│   │   │           ├── 0000.resp
-│   │   │           ├── annotations.shtml
-│   │   │           ├── ANNOTATORS
-│   │   │           ├── index.html
-│   │   │           ├── RECORDS
-│   │   │           ├── reports.shtml
-│   │   │           ├── SHA256SUMS.txt
-│   │   │           └── wfdbcal
-│   │   └── robots.txt
-│   └── testing-dataset
-│       └── vgsales.csv
+│   └── ... 
 ├── LICENSE
 ├── README.md
 ├── requirment.txt
@@ -38,7 +17,33 @@ project-structure
     ├── main_code.png
     ├── other_matrics.png
     └── output.png
+```
 
+DATA-SETS
+```
+.
+└─ data                                  
+  ├── physionet.org/files/shhpsgdb/1.0.0                     
+  │   │   │           
+  │   │   ├── 0000.arou         
+  │   │   ├── 0000.comp         
+  │   │   ├── 0000.dat          
+  │   │   ├── 0000.edf          
+  │   │   ├── 0000.hea          
+  │   │   ├── 0000.hypn         
+  │   │   ├── 0000.oart         
+  │   │   ├── 0000.resp         
+  │   │   ├── annotations.shtml 
+  │   │   ├── ANNOTATORS        
+  │   │   ├── index.html        
+  │   │   ├── RECORDS           
+  │   │   ├── reports.shtml     
+  │   │   ├── SHA256SUMS.txt    
+  │   │   └── wfdbcal           
+  │   └── robots.txt                    
+  └── testing-dataset                   
+      └── vgsales.csv                   
+ 
 9 directories, 26 files
 ```
 
@@ -54,7 +59,7 @@ git clone https://github.com/Himanshu-Parangat/machine-learning-assignment
 cd machine-learning-assignment/
 ```
 
-#### 2. Create Virtual Environment & activate
+#### 2. Create Virtual Environment & activate (optional)
 ```
 python -m venv .env
 .\.env\Scripts\activate
@@ -93,7 +98,15 @@ additional
 
 ## Database fair uses 
 
-1. testing-dataset:  this is a testing database for the project, it include details about popular video games sales 
+1. testing-dataset: Video Game Sales, Analyze sales data from more than 16,500 games. this is a testing database for the project
+
+> plese refer to url `https://www.kaggle.com/datasets/gregorut/videogamesales`
+> I DO NOT HAVE THE OWNERSHIP FOR THIS DATA
+
+Sources
+> https://www.kaggle.com/datasets/gregorut/videogamesales
+> https://github.com/GregorUT/vgchartzScrape
+> https://www.vgchartz.com/gamedb/
 
 2. physionet.org: Sleep Heart Health Study PSG Database (waveform)
 

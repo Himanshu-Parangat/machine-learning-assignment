@@ -1,0 +1,197 @@
+<!--#set var="TITLE" value="SHHS Polysomnography Database"-->
+<!--#include virtual="/head.shtml"-->
+
+<center><h2>Clinical correlate and quality reports</h2></center>
+
+<p>
+<a href="./">Return to the SHHS PSG Database</a>
+
+<p>
+Quality control procedures for data acquisition and scoring are described in <a
+href="./#ref3">[3]</a>. All studies were reviewed at the Reading Center and
+assigned quality codes, grading overall study quality and quality of each
+channel.  Signal and study quality codes, specific to each technician, each
+monitor, and each site, were summarized and reported on a monthly basis. These
+data were reviewed on a monthly basis by members of a Polysomnography
+Subcommittee. Sites and individual technicians were expected to produce at
+least 85% of studies with a grade of "Good" or better. Those who did not reach
+this standard were identified.  Any downward trending of quality or deviation
+of specific technicians required a written response from the Principle
+Investigator from that respective site. These data were reviewed periodically
+with members of the Steering Committee, the NIH program office, and a Data and
+Safety Monitoring Board.
+
+<p>
+<strong>Scorer Training and Certification:</strong> Each scorer underwent
+extensive training with the other SHHS scorers, a Chief Polysomnologist and
+Reading Center Investigators.  Scorer certification required the demonstration
+of a complete understanding of scoring rules and achievement of a 90% level of
+agreement with the Chief Polysomnologist for respiratory events and sleep
+stages and a 85% level of agreement for arousals for 10 or more independently
+scored practice records.  Reliability and accuracy of scored data were
+evaluated on an ongoing basis, including formal reliability studies <a
+href="./#ref4">[4]</a> and ongoing scoring exercises.
+
+<p>
+<strong>Record Grading:</strong> Each record is assigned an overall grade as
+follows:
+
+<ul>
+<li>
+<em>Outstanding:</em> All channels are graded as mostly artifact free for &gt; 5
+hours and entire sleep time.
+
+<li>
+<em>Excellent:</em> At least one EEG channel, one EOG channel, EMG, oximetry,
+all respiratory channels usable for &gt; 5 hours and &gt; 75% of sleep time.
+
+<li>
+<em>Very good:</em> At least one EEG channel, oximetry, airflow and either
+chest or abdomen usable for &gt; 5 hours and &gt; 50% of sleep time.
+
+<li>
+<em>Good:</em> At least one respiratory channel (airflow or either band),
+oximetry and one EEG usable for &gt; 5 hours and &gt; 50% of sleep time.
+
+<li>
+<em>Fair:</em> At least one respiratory channel, oximetry and one EEG usable
+for &gt; 4 hours or study scored sleep-wake only (because of the EEG artifact).
+
+<li>
+<em>Poor (Failed):</em> &lt; 4 hours of usable data on at least one respiratory
+channel, oximetry and one EEG.
+</ul>
+
+<p>
+(SHHS-1 records did not use the percentage of sleep time during which signals
+were artifact free, and only relied on the absolute duration of artifact free
+data.)
+
+<p>
+<strong>Manual Scoring:</strong> An Atlas detailing scoring,
+with pictorial examples, is found in the <a
+href="http://www.jhucct.com/shhs/default.html" target="other">SHHS Reading
+Center Manual of Procedures</a>.
+
+<p>
+Sleep stages were identified for each 30
+second epoch using Rechtshafflen and Kales criteria <a href="./#ref5">[5]</a>.
+
+<p>
+Arousals were characterized by the American Academy of Sleep Medicine criteria
+<a href="./#ref6">[6]</a>. An EEG arousal is an abrupt shift in EEG frequency, which may include
+alpha and/or theta waves and/or frequencies greater than 16 Hz, but not sleep
+spindles, lasting at least 3 s., and starting after at least 10 continuous
+seconds of sleep. In stage REM, an EEG frequency shift must be accompanied by a
+simultaneous increase in amplitude of the chin EMG (lasting over 0.5 s.).  An
+arousal starts when a definite change in background EEG is visualized.  The
+increase in the chin EMG can occur anytime during the arousal (can be at the
+end) and is not a marker for the beginning of the arousal. However, increased
+EMG activity without a change in background EEG does not constitute an arousal.
+
+<p>
+Apneas were identified if the amplitude (peak to trough) of the airflow signal
+was flat or nearly flat. This was noted when amplitude decreases below at least
+25% of the amplitude of "baseline" breathing (identified during a period of
+regular breathing with stable oxygen levels), if this change lasted for &gt; 10
+s. Apneas cannot be designated in areas of the study where thermistry is
+missing or uninterpretable
+
+<p>
+Hypopneas were identified if the amplitude of any respiratory signal decreases
+below (approximately) 70% of the amplitude of "baseline" (identified during a
+period of regular breathing with stable oxygen levels), if this change lasted
+for &gt; 10 s and for &gt;2 breaths.
+
+<p>
+"Central" events were noted if displacement was observed on neither the chest
+nor the abdominal inductance channels.  Otherwise, events were noted as
+"obstructive". Central events cannot be designated if either or both band data
+are missing or uninterpretable.
+
+<p>
+<strong>Summary data available for each record:</strong> Computer analysis of
+the records also linked data from varying channels to identify desaturation
+variables, sleep summary data, and various Respiratory Disturbance Indices
+(RDIs). The following describe how these data are used (See Data Dictionary for
+variable names associated with key summary parameters):
+
+<p>
+The desaturation associated with any respiratory event were based on the nadir
+desaturation reached within a user defined amount of the time (usually within
+30 sec) of the end of the event.  The magnitude of the desaturation for an
+event is the difference between the greatest saturation level observed during
+the event and this minimum.  The scorer will manually check events to assure
+that the appropriate desaturation is identified and modify the time lag as
+needed.
+
+<p>
+Arousals were associated with events if they begin within 3 s. of the
+termination of the respiratory event.
+
+<p>
+RDI (Respiratory Disturbance Index) is defined as the number of respiratory
+events (apneas and hypopneas) per hour of the sleep. Events will be included in
+different indices according to level of associated desaturation and/or arousal:
+? Summary RDI values, based on events associated with 0-2%, &gt; 2%, &gt;3%, &gt;4%, and
+&gt;5% desaturation levels.  ? Summary RDI values based on events associated with
+0-2%, &gt; 2%, &gt;3%, &gt;4%, and &gt;5% desaturation levels and associated arousal.  ?
+Summary RDI values based on events associated with arousal regardless of
+desaturation.
+
+<p>Time in apnea or hypopnea:
+<ul>
+<li>Percent of the sleep time in apnea (obstructive or central, with at least a
+3% desaturation +/- arousal).
+
+<li>Percent sleep time in hypopnea (with at least a 3% desaturation +/-
+arousal).
+</ul>
+
+<p>Oxygen desaturation Profile:
+<ul>
+<li>Percent of the sleep time in desaturation (&lt;95%, &lt;90%, &lt;85%, &lt;80%, &lt;75%).
+
+<li>Number of desaturations/hour of sleep (unlinked with respiratory events) of
+2%, 3%, 4%, 5%.
+</ul>
+
+<p>Sleep Architecture: 
+<ul>
+<li>Time and percent of sleep time in each sleep stage.
+<li>Arousal index.
+<li>Number/hour stage 1 shifts; upward shifts; wake shifts.
+<li>Sleep efficiency.
+<li>Sleep latency; REM latency (defined both as time from lights off to first
+ REM and from onset of sleep to first REM).
+</ul>
+
+<p>Heart Rate data: 
+<ul>
+<li>Maximum, minimum and mean heart rate noted during sleep, associated with 
+respiratory events and associated with the arousals (in REM and Non-REM 
+separately).
+</ul>
+
+<p>Additional Data Available for each record (in QS form): Special events,
+generally recognized by pattern recognition, are also coded for each
+study. These include:
+
+<ul>
+<li>Abnormal Awake EEG 
+<li>Alpha intrusion 
+<li>Abnormal Eye Movements 
+<li>Periodicity  
+<li>Cheynes Stokes Breathing (CSB)
+<li>Periodic large breaths
+<li> Sleep staging/arousal unreliable
+<li>Apneas vs hypopneas unreliable
+</ul>
+
+<p>
+<a href="./">Return to the SHHS PSG Database</a>
+
+<hr>
+<!--#include virtual="/footer.shtml"-->
+</body>
+</html>

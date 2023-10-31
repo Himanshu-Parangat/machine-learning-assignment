@@ -1,0 +1,89 @@
+<!--#set var="TITLE" value="SHHS Polysomnography DB: Annotation files"-->
+<!--#include virtual="/head.shtml"-->
+
+<center><h2>Annotation files</h2></center>
+
+<p>
+Use the <a href="/cgi-bin/ATM?database=shhpsgdb">PhysioBank ATM</a> (or
+any PhysioToolkit application) to read the annotation files included in
+the SHHS Polysomnography Database.  The text strings associated with each
+annotation are described below.
+
+<p>
+<a href="./">Return to the SHHS PSG Database</a>
+
+<h2>Hypnogram (.hypn) annotations</h2>
+
+<p>
+The text strings indicate the sleep stage for the <em>following</em> 30-second
+epoch, according to this scheme:
+<center><table>
+<tr><th align=center width=20%>code</th><th align=left>meaning</th></tr>
+<tr><td align=center>W</td><td>subject is awake</td></tr>
+<tr><td align=center>1</td><td>sleep stage 1</td></tr>
+<tr><td align=center>2</td><td>sleep stage 2</td></tr>
+<tr><td align=center>3</td><td>sleep stage 3</td></tr>
+<tr><td align=center>4</td><td>sleep stage 4</td></tr>
+<tr><td align=center>R</td><td>REM sleep</td></tr>
+</table></center>
+
+<h2>EEG arousal (.arou) annotations</h2>
+
+<p>
+The text strings contain the following information:
+<ul>
+<li> Event type (Arousal)
+
+<li> Duration in minutes, seconds, and tenths of seconds (m:ss.s)
+</ul>
+
+<h2>Respiratory event (.resp) annotations</h2>
+
+<p>
+The text strings contain the following information:
+<ul>
+<li> Event type (Hyp: hypopnea; Ob.A: obstructive apnea; Cn.A: central apnea)
+
+<li> Duration in minutes, seconds, and tenths of seconds (m:ss.s)
+
+<li> Percent decrease in SaO2 associated with the event
+
+<li> Minimum SaO2 (percent) associated with the event
+</ul>
+
+<h2>Oximeter artifact (.oart) annotations</h2>
+
+<p>
+The text strings contain the following information:
+<ul>
+<li> Event type (SaO2.Art)
+
+<li> Duration in minutes, seconds, and tenths of seconds (m:ss.s)
+</ul>
+
+<h2>Composite (.comp) annotations</h2>
+
+<p>
+The composite annotation file for each record contains all of the
+annotations in the .hypn, .arou, .resp, and .oart annotation files.
+These can always be distinguished by the event type (or sleep stage,
+in the case of the .hypn annotations).  In addition, the <tt>chan</tt>
+field of the annotations, which appears in the fifth column of
+<tt>rdann</tt>'s output, indicates the source of each annotation,
+according to this scheme:
+
+<center><table>
+<tr><th align=center width=20%>code</th><th align=left>meaning</th></tr>
+<tr><td align=center>0</td><td>sleep stage (.hypn)</td></tr>
+<tr><td align=center>1</td><td>EEG arousal (.arou)</td></tr>
+<tr><td align=center>2</td><td>respiratory event (.resp)</td></tr>
+<tr><td align=center>3</td><td>oximeter artifact (.oart)</td></tr>
+</table></center>
+
+<p>
+<a href="./">Return to the SHHS PSG Database</a>
+
+<hr>
+<!--#include virtual="/footer.shtml"-->
+</body>
+</html>

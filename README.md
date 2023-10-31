@@ -5,6 +5,26 @@ project-structure
 ```
 .
 ├── data
+│   ├── physionet.org
+│   │   ├── files
+│   │   │   └── shhpsgdb
+│   │   │       └── 1.0.0
+│   │   │           ├── 0000.arou
+│   │   │           ├── 0000.comp
+│   │   │           ├── 0000.dat
+│   │   │           ├── 0000.edf
+│   │   │           ├── 0000.hea
+│   │   │           ├── 0000.hypn
+│   │   │           ├── 0000.oart
+│   │   │           ├── 0000.resp
+│   │   │           ├── annotations.shtml
+│   │   │           ├── ANNOTATORS
+│   │   │           ├── index.html
+│   │   │           ├── RECORDS
+│   │   │           ├── reports.shtml
+│   │   │           ├── SHA256SUMS.txt
+│   │   │           └── wfdbcal
+│   │   └── robots.txt
 │   └── testing-dataset
 │       └── vgsales.csv
 ├── LICENSE
@@ -19,8 +39,7 @@ project-structure
     ├── other_matrics.png
     └── output.png
 
-4 directories, 10 files
-
+9 directories, 26 files
 ```
 
 ## Instructions for Running the Project

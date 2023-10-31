@@ -43,9 +43,9 @@ DATA-SETS
   │   └── robots.txt                    
   └── testing-dataset                   
       └── vgsales.csv                   
- 
-9 directories, 26 files
 ```
+total 9 directories, 26 files
+
 
 ## Instructions for Running the Project
 note: If you are a windows user, run this on powershell
@@ -98,18 +98,20 @@ additional
 
 ## Database fair uses 
 
-1. testing-dataset: Video Game Sales, Analyze sales data from more than 16,500 games. this is a testing database for the project
+### 1. testing-dataset
 
+Video Game Sales, Analyze sales data from more than 16,500 games. this is a testing database for the project
 > plese refer to url `https://www.kaggle.com/datasets/gregorut/videogamesales`
 > I DO NOT HAVE THE OWNERSHIP FOR THIS DATA
 
 Sources
-> https://www.kaggle.com/datasets/gregorut/videogamesales
-> https://github.com/GregorUT/vgchartzScrape
-> https://www.vgchartz.com/gamedb/
+* https://www.kaggle.com/datasets/gregorut/videogamesales
+* https://github.com/GregorUT/vgchartzScrape
+* https://www.vgchartz.com/gamedb/
 
-2. physionet.org: Sleep Heart Health Study PSG Database (waveform)
+### 2. physionet.org
 
+Sleep Heart Health Study PSG Database (waveform)
 > plese refer to url `https://physionet.org/content/shhpsgdb/1.0.0/` 
 > I DO NOT HAVE THE OWNERSHIP FOR THIS DATA
 
@@ -121,9 +123,7 @@ breathing and cardiovascular disease since 1995. The data include EEG, EOG, EMG,
 respiratory effort signals, SaO2 and heart rate measurements, and annotated sleep stages, respiratory events,
 EEG arousals, and more.
 
-
-
-## Citations
+**Citations**
 
 This project uses the following resources:
 

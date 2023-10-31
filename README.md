@@ -70,3 +70,8 @@ output
 ![Output](src/output.png)
 additional
 ![Other Metrics](src/other_matrics.png)
+
+
+## Database use 
+
+1. testing-dataset:  this is a testing database for the project, it include details about popular video games sales 

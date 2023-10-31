@@ -9,7 +9,7 @@ import numpy as np
 
 
 
-df = pd.read_csv("../data/vgsales.csv")
+df = pd.read_csv("../data/testing-dataset/vgsales.csv")
 df = df.dropna(subset=['Year'])
 
 

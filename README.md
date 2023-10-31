@@ -5,7 +5,8 @@ project-structure
 ```
 .
 ├── data
-│   └── vgsales.csv
+│   └── testing-dataset
+│       └── vgsales.csv
 ├── LICENSE
 ├── README.md
 ├── requirment.txt

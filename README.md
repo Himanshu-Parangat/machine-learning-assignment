@@ -1,6 +1,5 @@
 # machine-learning-assignment
 
-
 project-structure
 ```
 .
@@ -95,6 +94,7 @@ output
 additional
 ![Other Metrics](src/other_matrics.png)
 
+> note: 🚧 repo uses a testing data set, the new physionet dataset has yet to be used using wfdb library  🚧 
 
 ## Database fair uses 
 
